@@ -30,13 +30,12 @@ Measures car body velocity.
 7. PID Controller
 Generates actuator force based on velocity feedback.
 ________________________________________
-Parameters Used
-Parameter	Symbol	Value
-Sprung Mass	M_s	300 kg
-Unsprung Mass	M_u	40 kg
-Suspension Stiffness	K_s	16000 N/m
-Suspension Damping	B_s	1000 Ns/m
-Tire Stiffness	K_t	190000 N/m
+Parameters Used:
+Sprung Mass	M_s: 300 kg
+Unsprung Mass M_u:40 kg
+Suspension Stiffness K_s: 16000 N/m
+Suspension Damping	B_s: 1000 Ns/m
+Tire Stiffness	K_t: 190000 N/m
 ________________________________________
 Road Disturbance
 The road profile is modeled using a step input representing a road bump.
