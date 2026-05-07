@@ -1,5 +1,5 @@
 Active Suspension System using Simulink & Simscape
-Overview
+Overview:
 This project implements a Quarter Car Active Suspension System using MATLAB Simulink and Simscape.
 The model simulates how an active suspension system improves ride comfort by using:
 	sensors, 
@@ -7,13 +7,13 @@ The model simulates how an active suspension system improves ride comfort by usi
 	and an actuator 
 to reduce vehicle body oscillations caused by road disturbances.
 ________________________________________
-Project Objectives
+Project Objectives:
 The goal of this project is to:
 	Model a quarter-car suspension system 
 	Reduce body oscillations using feedback control 
 	Understand real-world suspension dynamics 
 ________________________________________
-System Architecture
+System Architecture:
 The system consists of:
 1. Sprung Mass
 Represents the car body.
@@ -37,17 +37,17 @@ Suspension Stiffness K_s: 16000 N/m
 Suspension Damping	B_s: 1000 Ns/m
 Tire Stiffness	K_t: 190000 N/m
 ________________________________________
-Road Disturbance
+Road Disturbance:
 The road profile is modeled using a step input representing a road bump.
 ________________________________________
-Results
-Observations
+Results:
+Observations:
 	Car body displacement showed damped oscillations and stabilized within approximately 2 seconds. 
 	Car body velocity stabilized within approximately 3 seconds. 
 	Actuator force behaved inversely to body velocity, indicating proper negative feedback damping behavior. 
 	The active suspension significantly reduced oscillations compared to passive suspension behavior. 
 ________________________________________
-Key Learnings
+Key Learnings:
 This project helped in understanding:
 	Quarter car dynamics 
 	Mass-spring-damper systems 
@@ -58,12 +58,12 @@ This project helped in understanding:
 	Sensor-actuator interaction 
 	Automotive suspension dynamics 
 ________________________________________
-Software Used
+Software Used:
 	MATLAB 
 	Simulink 
 	Simscape 
 ________________________________________
-Future Improvements
+Future Improvements:
 Possible future extensions include:
 	LQR controller implementation 
 	State-space control 
@@ -75,7 +75,7 @@ Possible future extensions include:
 	Ride comfort analysis using acceleration metrics 
 ________________________________________
 
-Applications
+Applications:
 Active suspension systems are widely used in:
 	luxury vehicles, 
 	high-performance cars, 
