@@ -8,7 +8,7 @@ The model simulates how an active suspension system improves ride comfort by usi
 to reduce vehicle body oscillations caused by road disturbances.
 ________________________________________
 Project Objectives:
-The goal of this project is to:
+The goal of this project is to
 	Model a quarter-car suspension system 
 	Reduce body oscillations using feedback control 
 	Understand real-world suspension dynamics 
@@ -40,7 +40,6 @@ ________________________________________
 Road Disturbance:
 The road profile is modeled using a step input representing a road bump.
 ________________________________________
-Results:
 Observations:
 	Car body displacement showed damped oscillations and stabilized within approximately 2 seconds. 
 	Car body velocity stabilized within approximately 3 seconds. 
